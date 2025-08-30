@@ -4,7 +4,6 @@ import { InfiniteMovingCards } from "./components/moving-cards";
 import { LampComponent } from "./components/lamp";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import Image from "next/image";
 import { toast } from "sonner";
 
 const fontAnton = Anton({
@@ -39,7 +38,7 @@ export const imgrow5 = [...new Array(8)].map((client, index) => ({
   href: `/${index + 33}.png`,
 }));
 
-export default function Home() {
+export default function Page():React.JSX.Element {
   const HandleCopy = async () => {
     await navigator.clipboard.writeText("ayeshaliaqat.designer@gmail.com");
     toast("Email Copied!");
@@ -77,7 +76,7 @@ export default function Home() {
                   >
                     {" "}
                     <img
-                    className="rounded-3"
+                    className="rounded-[4px]"
                     src={`/Ayesha_ s Portfolio/${item.href}`} alt="" />
                   </div>
                 ))}
@@ -91,7 +90,7 @@ export default function Home() {
                   >
                     {" "}
                     <img
-                    className="rounded-3"
+                    className="rounded-[4px]"
                     src={`/Ayesha_ s Portfolio/${item.href}`} alt="" />
                   </div>
                 ))}
@@ -105,7 +104,7 @@ export default function Home() {
                   >
                     {" "}
                     <img
-                    className="rounded-3"
+                    className="rounded-[4px]"
                     src={`/Ayesha_ s Portfolio/${item.href}`} alt="" />
                   </div>
                 ))}
@@ -119,7 +118,7 @@ export default function Home() {
                   >
                     {" "}
                     <img 
-                    className="rounded-3"
+                    className="rounded-[4px]"
                     src={`/Ayesha_ s Portfolio/${item.href}`} alt="" />
                   </div>
                 ))}
@@ -133,7 +132,7 @@ export default function Home() {
                   >
                     {" "}
                     <img 
-                    className="rounded-3"
+                    className="rounded-[4px]"
                     src={`/Ayesha_ s Portfolio/${item.href}`} alt="" />
                   </div>
                 ))}
