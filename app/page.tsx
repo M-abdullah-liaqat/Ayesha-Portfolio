@@ -10,7 +10,6 @@ const fontAnton = Anton({
   subsets: ["latin"],
   weight: "400",
 });
-
 const clients = [...new Array(8)].map((client, index) => ({
   href: `/Ayesha_ s Portfolio/Logo wgite color/${index + 1}.png`,
 }));
