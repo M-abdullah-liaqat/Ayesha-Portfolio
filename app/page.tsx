@@ -11,11 +11,11 @@ const fontAnton = Anton({
   weight: "400",
 });
 
-export const clients = [...new Array(8)].map((client, index) => ({
+const clients = [...new Array(8)].map((client, index) => ({
   href: `/Ayesha_ s Portfolio/Logo wgite color/${index + 1}.png`,
 }));
 
-export const imgrow1 = [...new Array(9)].map((client, index) => {
+const imgrow1 = [...new Array(9)].map((client, index) => {
   if (index === 8) {
     return {
       href: `/41.png`,
@@ -25,16 +25,16 @@ export const imgrow1 = [...new Array(9)].map((client, index) => {
     href: `/${index + 1}.png`,
   };
 });
-export const imgrow2 = [...new Array(8)].map((client, index) => ({
+const imgrow2 = [...new Array(8)].map((client, index) => ({
   href: `/${index + 9}.png`,
 }));
-export const imgrow3 = [...new Array(8)].map((client, index) => ({
+const imgrow3 = [...new Array(8)].map((client, index) => ({
   href: `/${index + 17}.png`,
 }));
-export const imgrow4 = [...new Array(8)].map((client, index) => ({
+const imgrow4 = [...new Array(8)].map((client, index) => ({
   href: `/${index + 25}.png`,
 }));
-export const imgrow5 = [...new Array(8)].map((client, index) => ({
+const imgrow5 = [...new Array(8)].map((client, index) => ({
   href: `/${index + 33}.png`,
 }));
 
