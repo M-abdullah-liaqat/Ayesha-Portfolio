@@ -140,27 +140,6 @@ export default function Page():React.JSX.Element {
         </section>
       </div>
       <div className="my-20 space-y-14 px-6">
-        <div
-          className={`2xl:text-[110px] lg:text-[90px] md:text-[70px] text-[34px] flex items-center justify-center flex-col ${fontAnton.className}`}
-        >
-          <div>Heyo, I’m Ayesha </div>
-        </div>
-        <div className="lg:w-[1000px] w-full justify-self-center text-center md:text-2xl text-xl space-y-5">
-          <div>
-            A designer who believes emails are more than just messages in an
-            inbox. They’re stories, emotions, and connections waiting to happen.
-            Over the years, I’ve helped brands generate over $1M+ in revenue
-            through designs that don’t just look good, but feel good and perform
-            even better. My mission: helping brands shine brighter and connect
-            deeper with their audiences — globally.
-          </div>
-          <div>
-            Feel free to drop me an email at{" "}
-            <span className="font-bold">ayeshaliaqat.designer@gmail.com</span> —
-            I’ll reply within 48 business hours. For a quicker hello, you can
-            also send me a DM on Facebook or LinkedIn (links below).
-          </div>
-        </div>
         <div className={`justify-self-center ${fontAnton.className}`}>
           <button
             onClick={HandleCopy}
